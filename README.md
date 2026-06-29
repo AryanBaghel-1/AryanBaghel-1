@@ -91,10 +91,11 @@
 <br clear="both">
 
 <div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/AryanBaghel-1/AryanBaghel-1/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/AryanBaghel-1/AryanBaghel-1/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=AryanBaghel-1&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://raw.githubusercontent.com/AryanBaghel-1/AryanBaghel-1/activity-graph-output/activity-graph.svg?radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=AryanBaghel-1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
+
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanBaghel-1&layout=compact&theme=dracula" />
+
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanBaghel-1&theme=react-dark&area=true&hide_border=true" />
 </div>
 
 ###
@@ -109,7 +110,7 @@
   <a href="https://www.instagram.com/chico_carinoso1/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="85" height="28" alt="instagram logo"  />
   </a>
-  <a href="mahito:albertmit98@gmail.com" target="_blank">
+  <a href="mailto:albertmit98@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="85" height="28" alt="gmail logo"  />
   </a>
 </div>
