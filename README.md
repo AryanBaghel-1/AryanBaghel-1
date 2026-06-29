@@ -91,10 +91,16 @@
 <br clear="both">
 
 <div data-importer="stats" align="center">
+// readme stats
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=AryanBaghel-1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
 
+  // streak stats
+  <img src="https://streak-stats.demolab.com?user=AryanBaghel-1&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
+
+  // top-languages stats
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanBaghel-1&layout=compact&theme=dracula" />
 
+  // activity graph stats
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanBaghel-1&theme=react-dark&area=true&hide_border=true" />
 </div>
 
