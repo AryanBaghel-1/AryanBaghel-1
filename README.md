@@ -84,29 +84,28 @@
 
 ###
 
-<h3 data-importer="text" align="left">🔥   My Stats :</h3>
+<h3 data-importer="text" align="left">🔥 My Stats</h3>
 
 ###
 
-<br clear="both">
+<p align="center">
+  <img src="https://github-readme-stats-1-flame.vercel.app/api?username=AryanBaghel-1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Aryan's GitHub stats" height="180" />
+</p>
 
-<div data-importer="stats" align="center">
-<!-- GitHub Stats -->
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=AryanBaghel-1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=AryanBaghel-1&theme=dracula&hide_border=false" alt="Aryan's GitHub streak" height="180" />
+</p>
 
-  <!--> streak stats -->
-  <img src="https://streak-stats.demolab.com?user=AryanBaghel-1&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
+<p align="center">
+  <img src="https://github-readme-stats-1-flame.vercel.app/api/top-langs/?username=AryanBaghel-1&layout=compact&theme=dracula" alt="Aryan's top languages" height="180" />
+</p>
 
-  <!-- top-languages stats -->
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanBaghel-1&layout=compact&theme=dracula" />
-
-  <!--> activity graph stats -->
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanBaghel-1&theme=react-dark&area=true&hide_border=true" />
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AryanBaghel-1&theme=react-dark&area=true&hide_border=true" alt="Aryan's GitHub activity graph" width="100%" />
+</p>
 
 ###
-
-h  <a href="https://www.linkedin.com/in/aryan-baghel1/" target="_blank">
+  <a href="https://www.linkedin.com/in/aryan-baghel1/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="85" height="28" alt="linkedin logo"  />
   </a>
   <a href="https://x.com/baghelaryan1" target="_blank">
