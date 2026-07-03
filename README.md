@@ -6,9 +6,9 @@
 
 ###
 
-<div data-importer="profile-views" align="center">
+<!-- <div data-importer="profile-views" align="center">
   <img data-importer="profile-views" src="https://count.getloli.com/@:AryanBaghel-1?theme=asoul&padding=5&offset=1&scale=1&align=bottom&pixelated=1&darkmode=1"  />
-</div>
+</div> -->
 
 ###
 
