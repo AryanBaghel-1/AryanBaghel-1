@@ -93,7 +93,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=AryanBaghel-1&theme=dracula&hide_border=false" alt="Aryan's GitHub streak" height="180" />
+  <img src="https://streak-stats.demolab.com?user=AryanBaghel-1&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
