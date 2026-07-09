@@ -93,7 +93,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AryanBaghel-1&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com/?user=AryanBaghel-1&theme=dracula&hide_border=false" alt="Aryan's GitHub streak" height="180" />
 </p>
 
 <p align="center">
@@ -105,6 +105,7 @@
 </p>
 
 ###
+
   <a href="https://www.linkedin.com/in/aryan-baghel1/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="85" height="28" alt="linkedin logo"  />
   </a>
