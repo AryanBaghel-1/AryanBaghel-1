@@ -16,12 +16,42 @@
 
 ###
 
-<h3 data-importer="text" align="left">👩‍💻  About Me</h3>
+<h3 data-importer="text" align="left">👩‍💻 ~ About Me</h3>
 
-###
+### About Me
 
-<p data-importer="text" align="left">export function Developer() {<br>    // 👨‍💻 Basic Info<br>    const name = "👋 Aryan Baghel";<br>    const username = "🐙 AryanBaghel-1";<br>    let title = "🚀 Full Stack Developer & AI Enthusiast";<br>    const education = "🎓 B.Tech in Computer Science";<br>    const location = "📍 India";<br><br>    // 💻 Tech Stack<br>    let languages = [ "⚡ TypeScript", "🟨 JavaScript", "🐍 Python",  "☕ Java", ⚙️C++"];<br><br>    let framework = [ "⚛️ React.js", "▲ Next.js", "🎨 Tailwind CSS", " HTML", "🎭 CSS"];<br><br>    let devops = ["🌱 Git", "🐙 GitHub", "🐳 Docker", "🐧 Linux"];<br><br>    const editor = "📝 VS Code";<br>    const os = "🐧 Arch Linux";<br><br>    // ❤️ Interests<br>    let interests = ["🌐 Web Development", "🛡️ Cyber Security", "🤝 Open Source", "🤖 Artificial Intelligence"];<br><br>    // 🎯 Fun Stuff<br>    let hobbies = ["♟️ Chess", "📚 Reading Books", "🎵 Music", Watching Animes];<br><br>    // 💭 Motto<br>    const motto = "🐧 sudo pacman -S curiosity && code --forever";<br><br>    // 📬 Contact<br>    const email = "📧 albertmit98@gmail.com";<br><br>    function Greet() {<br>        return "👋 Thanks for visiting my profile! 🚀 Feel free to reach out at " + email + " if you'd like to collaborate, build something awesome, or just say hi! 😄";<br>    }<br>}</p>
+``` Typescript
+export class Developer() {
 
+     name: string = "👋 Aryan Baghel";
+     username: string = "AryanBaghel-1";
+     title: string = "Full Stack Developer & AI Enthusiast";
+     education: string = "B.Tech in Computer Science";
+     location: string = "India";
+
+     // Skills
+     languages: string[] = ["TypeScript", "JavaScript", "Python",  "Java", "C++"];
+     framework: string[] = [ "React.js", "Next.js", "Tailwind CSS", " HTML", "CSS"];
+     tools: string[] = ["Git", "GitHub", "Docker", "Linux"];
+     editor: string = "VS Code";    
+     CurrentOs: string = "Arch Linux";
+
+     // Intrerests
+     let interests = ["Web Development", "Cyber Security", "Open Source", "Artificial Intelligence"];
+
+     // FunnTalk
+     let hobbies = ["Chess", "Reading Books", "Music", "Watching Animes"];
+     const motto = "sudo pacman -S curiosity && code --forever";
+
+
+
+     const email = "albertmit98@gmail.com";
+
+     function Greet() {
+        return "👋 Thanks for visiting my profile! Feel free to reach out if you'd like to collaborate, build something awesome, or just say hi!";
+     };
+};
+```
 ###
 
 <h3 data-importer="text" align="left">🛠 Language and tools</h3>
