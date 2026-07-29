@@ -123,7 +123,7 @@ export class Developer() {
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=AryanBaghel-1&theme=dracula&hide_border=false&v=20260728" alt="Aryan's GitHub streak" height="180" />
+  <img src="https://streak-stats.demolab.com/?user=AryanBaghel-1&theme=dracula&hide_border=false" alt="Aryan's GitHub streak" height="180" />
 </p>
 
 <p align="center">
