@@ -20,7 +20,7 @@
 
 ### About Me
 
-``` Typescript
+```Typescript
 export class Developer() {
 
      name: string = "👋 Aryan Baghel";
@@ -33,7 +33,7 @@ export class Developer() {
      languages: string[] = ["TypeScript", "JavaScript", "Python",  "Java", "C++"];
      framework: string[] = [ "React.js", "Next.js", "Tailwind CSS", " HTML", "CSS"];
      tools: string[] = ["Git", "GitHub", "Docker", "Linux"];
-     editor: string = "VS Code";    
+     editor: string = "VS Code";
      CurrentOs: string = "Arch Linux";
 
      // Intrerests
@@ -52,6 +52,7 @@ export class Developer() {
      };
 };
 ```
+
 ###
 
 <h3 data-importer="text" align="left">🛠 Language and tools</h3>
@@ -131,7 +132,7 @@ export class Developer() {
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AryanBaghel-1&theme=react-dark&area=true&hide_border=true" alt="Aryan's GitHub activity graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/AryanBaghel-1/AryanBaghel-1/activity-graph-output/activity-graph.svg" alt="Aryan's GitHub activity graph" width="100%" />
 </p>
 
 ###
