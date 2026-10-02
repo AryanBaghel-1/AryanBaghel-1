@@ -120,11 +120,11 @@ export class Developer() {
 ###
 
 <p align="center">
-  <img src="https://github-readme-stats-1-flame.vercel.app/api?username=AryanBaghel-1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Aryan's GitHub stats" height="180" />
+  <img src="https://github-readme-stats-1-flame.vercel.app/api?username=AryanBaghel-1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Aryan's GitHub stats" widht="900" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=AryanBaghel-1&theme=dracula&hide_border=false" alt="Aryan's GitHub streak" height="180" />
+  <img src="https://streak-stats.demolab.com/?user=AryanBaghel-1&theme=dracula&hide_border=false" alt="Aryan's GitHub streak" width="900" />
 </p>
 
 <!-- WakaTime Card -->
