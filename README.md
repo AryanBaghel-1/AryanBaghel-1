@@ -136,18 +136,18 @@ export class Developer() {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 24 September 2026 - To: 01 October 2026
+From: 29 August 2026 - To: 01 October 2026
 
-Total Time: 2 hrs 27 mins
+Total Time: 7 hrs 49 mins
 
-Python        49 mins               ████████▒░░░░░░░░░░░░░░░░   33.57 %
-Markdown      48 mins               ████████▒░░░░░░░░░░░░░░░░   32.83 %
-Text          26 mins               ████▒░░░░░░░░░░░░░░░░░░░░   17.98 %
-Bash          11 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.95 %
-HTML          6 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.33 %
-Image (png)   3 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.11 %
-Other         1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.23 %
-Image (svg)   0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+TypeScript     2 hrs 16 mins         ███████░░░░░░░░░░░░░░░░░░   28.48 %
+Python         1 hr 28 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.45 %
+Markdown       1 hr 16 mins          ████░░░░░░░░░░░░░░░░░░░░░   16.03 %
+JSON           53 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   11.26 %
+Text           34 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   07.28 %
+CSS            32 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.78 %
+Bash           17 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.75 %
+Other          9 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.01 %
 ```
 
 <!--END_SECTION:waka-->
