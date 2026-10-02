@@ -132,6 +132,13 @@ export class Developer() {
 </p>
 
 <p align="center">
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/AryanBaghel-1/AryanBaghel-1/activity-graph-output/activity-graph.svg" alt="Aryan's GitHub activity graph" width="100%" />
 </p>
 
