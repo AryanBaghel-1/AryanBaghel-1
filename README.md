@@ -127,13 +127,9 @@ export class Developer() {
   <img src="https://streak-stats.demolab.com/?user=AryanBaghel-1&theme=dracula&hide_border=false" alt="Aryan's GitHub streak" height="180" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats-1-flame.vercel.app/api/top-langs/?username=AryanBaghel-1&layout=compact&theme=dracula" alt="Aryan's top languages" height="180" />
-</p>
-
 <!-- WakaTime Card -->
 <p align="center">
-  <img src="./assets/wakatime-card.svg" alt="Aryan's WakaTime coding activity" width="500" />
+  <img src="./assets/wakatime-card.svg" alt="Aryan's WakaTime coding activity" width="900" />
 </p>
 <!-- End WakaTime Card -->
 
