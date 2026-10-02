@@ -131,28 +131,11 @@ export class Developer() {
   <img src="https://github-readme-stats-1-flame.vercel.app/api/top-langs/?username=AryanBaghel-1&layout=compact&theme=dracula" alt="Aryan's top languages" height="180" />
 </p>
 
+<!-- WakaTime Card -->
 <p align="center">
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 29 August 2026 - To: 01 October 2026
-
-Total Time: 7 hrs 49 mins
-
-TypeScript     2 hrs 16 mins         ███████░░░░░░░░░░░░░░░░░░   28.48 %
-Python         1 hr 28 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.45 %
-Markdown       1 hr 16 mins          ████░░░░░░░░░░░░░░░░░░░░░   16.03 %
-JSON           53 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   11.26 %
-Text           34 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   07.28 %
-CSS            32 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.78 %
-Bash           17 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.75 %
-Other          9 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.01 %
-```
-
-<!--END_SECTION:waka-->
-
+  <img src="./assets/wakatime-card.svg" alt="Aryan's WakaTime coding activity" width="900" />
 </p>
+<!-- End WakaTime Card -->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AryanBaghel-1/AryanBaghel-1/activity-graph-output/activity-graph.svg" alt="Aryan's GitHub activity graph" width="100%" />
