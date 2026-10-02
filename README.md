@@ -134,6 +134,22 @@ export class Developer() {
 <p align="center">
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 24 September 2026 - To: 01 October 2026
+
+Total Time: 2 hrs 27 mins
+
+Python        49 mins               ████████▒░░░░░░░░░░░░░░░░   33.57 %
+Markdown      48 mins               ████████▒░░░░░░░░░░░░░░░░   32.83 %
+Text          26 mins               ████▒░░░░░░░░░░░░░░░░░░░░   17.98 %
+Bash          11 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.95 %
+HTML          6 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.33 %
+Image (png)   3 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.11 %
+Other         1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.23 %
+Image (svg)   0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+```
+
 <!--END_SECTION:waka-->
 
 </p>
