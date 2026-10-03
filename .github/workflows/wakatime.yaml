@@ -11,6 +11,7 @@ permissions:
 jobs:
     update-card:
         runs-on: ubuntu-latest
+
         steps:
             - name: Checkout
               uses: actions/checkout@v4
@@ -20,10 +21,21 @@ jobs:
                   WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
               run: python scripts/wakatime-card.py
 
+            - name: Update README cache buster
+              run: |
+                  VERSION=$(date +%s)
+
+                  sed -i -E \
+                    's|(assets/wakatime-card\.svg\?v=)[^"]*|\1'"$VERSION"'|g' \
+                    README.md
+
             - name: Commit card
               run: |
                   git config user.name "github-actions[bot]"
                   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                  git add assets/wakatime-card.svg
+
+                  git add assets/wakatime-card.svg README.md
+
                   git diff --cached --quiet || git commit -m "update WakaTime card"
+
                   git push
