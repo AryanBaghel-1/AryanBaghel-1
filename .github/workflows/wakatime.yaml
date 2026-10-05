@@ -30,9 +30,12 @@ jobs:
                     README.md
 
             - name: Commit card
+              env:
+                  GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
+                  GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
               run: |
-                  git config user.name "AryanBaghel-1"
-                  git config user.email "albertmit98@gmail.com"
+                  git config user.name "$GIT_USERNAME"
+                  git config user.email "$GIT_EMAIL"
 
                   git add assets/wakatime-card.svg README.md
 
