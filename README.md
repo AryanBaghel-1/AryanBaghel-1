@@ -129,7 +129,7 @@ export class Developer() {
 
 <!-- WakaTime Card -->
 <p align="center">
-  <img src="./assets/wakatime-card.svg?v=1792208743" alt="Aryan's WakaTime coding activity" width="900" />
+  <img src="./assets/wakatime-card.svg?v=1792250203" alt="Aryan's WakaTime coding activity" width="900" />
 </p>
 <!-- End WakaTime Card -->
 
