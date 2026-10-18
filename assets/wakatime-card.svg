@@ -72,11 +72,11 @@
 <text x="918" y="467" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">1h 00m</text>
 <text x="62" y="518" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700">Last 30 Days Activity</text>
 <text x="918" y="518" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">UPDATED DAILY</text>
-<path d="M 62.0 615 L 62.0 615.0 L 91.5 568.8 L 121.0 611.7 L 150.6 612.4 L 180.1 615.0 L 209.6 615.0 L 239.1 615.0 L 268.6 615.0 L 298.1 615.0 L 327.7 605.9 L 357.2 615.0 L 386.7 615.0 L 416.2 605.1 L 445.7 553.8 L 475.2 535.0 L 504.8 569.1 L 534.3 577.4 L 563.8 605.3 L 593.3 594.9 L 622.8 601.1 L 652.3 615.0 L 681.9 615.0 L 711.4 615.0 L 740.9 578.7 L 770.4 572.7 L 799.9 558.2 L 829.4 570.9 L 859.0 612.5 L 888.5 596.4 L 918.0 615.0 L 918.0 615 Z" fill="url(#line)" opacity="0.10"/>
-<path d="M 62.0 615.0 L 91.5 568.8 L 121.0 611.7 L 150.6 612.4 L 180.1 615.0 L 209.6 615.0 L 239.1 615.0 L 268.6 615.0 L 298.1 615.0 L 327.7 605.9 L 357.2 615.0 L 386.7 615.0 L 416.2 605.1 L 445.7 553.8 L 475.2 535.0 L 504.8 569.1 L 534.3 577.4 L 563.8 605.3 L 593.3 594.9 L 622.8 601.1 L 652.3 615.0 L 681.9 615.0 L 711.4 615.0 L 740.9 578.7 L 770.4 572.7 L 799.9 558.2 L 829.4 570.9 L 859.0 612.5 L 888.5 596.4 L 918.0 615.0" fill="none" stroke="url(#line)"
+<path d="M 62.0 615 L 62.0 568.8 L 91.5 611.7 L 121.0 612.4 L 150.6 615.0 L 180.1 615.0 L 209.6 615.0 L 239.1 615.0 L 268.6 615.0 L 298.1 605.9 L 327.7 615.0 L 357.2 615.0 L 386.7 605.1 L 416.2 553.8 L 445.7 535.0 L 475.2 569.1 L 504.8 577.4 L 534.3 605.3 L 563.8 594.9 L 593.3 601.1 L 622.8 615.0 L 652.3 615.0 L 681.9 615.0 L 711.4 578.7 L 740.9 572.7 L 770.4 558.2 L 799.9 570.9 L 829.4 612.5 L 859.0 596.4 L 888.5 615.0 L 918.0 615.0 L 918.0 615 Z" fill="url(#line)" opacity="0.10"/>
+<path d="M 62.0 568.8 L 91.5 611.7 L 121.0 612.4 L 150.6 615.0 L 180.1 615.0 L 209.6 615.0 L 239.1 615.0 L 268.6 615.0 L 298.1 605.9 L 327.7 615.0 L 357.2 615.0 L 386.7 605.1 L 416.2 553.8 L 445.7 535.0 L 475.2 569.1 L 504.8 577.4 L 534.3 605.3 L 563.8 594.9 L 593.3 601.1 L 622.8 615.0 L 652.3 615.0 L 681.9 615.0 L 711.4 578.7 L 740.9 572.7 L 770.4 558.2 L 799.9 570.9 L 829.4 612.5 L 859.0 596.4 L 888.5 615.0 L 918.0 615.0" fill="none" stroke="url(#line)"
       stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="62" y1="615" x2="918" y2="615" stroke="#30363d"/>
-<text x="62" y="640" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400">18 Sep</text>
-<text x="918" y="640" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400" text-anchor="end">17 Oct</text>
+<text x="62" y="640" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400">19 Sep</text>
+<text x="918" y="640" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400" text-anchor="end">18 Oct</text>
 
 </svg>
