@@ -36,47 +36,47 @@
 <rect x="718" y="116" width="224" height="126" rx="16" fill="#161b22" stroke="#30363d"/>
 <text x="742" y="148" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700">TOP LANGUAGE</text>
 <text x="742" y="190" fill="#f778ba" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700">Python</text>
-<text x="742" y="219" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400">25.65% of last 30 days</text>
+<text x="742" y="219" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400">25.99% of last 30 days</text>
 <rect x="38" y="264" width="904" height="238" rx="16" fill="#161b22" stroke="#30363d"/>
 <text x="62" y="298" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700">Most Used Languages</text>
 <text x="918" y="298" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">LAST 30 DAYS</text>
 <text x="62" y="332" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400">Python</text>
 <rect x="190" y="321" width="520" height="10" rx="5" fill="#21262d"/>
-<rect x="190" y="321" width="133.4" height="10" rx="5" fill="#58a6ff"/>
-<text x="735" y="332" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">25.65%</text>
-<text x="918" y="332" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">4h 39m</text>
+<rect x="190" y="321" width="135.1" height="10" rx="5" fill="#58a6ff"/>
+<text x="735" y="332" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">25.99%</text>
+<text x="918" y="332" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">4h 58m</text>
 <text x="62" y="359" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400">Bash</text>
 <rect x="190" y="348" width="520" height="10" rx="5" fill="#21262d"/>
-<rect x="190" y="348" width="119.7" height="10" rx="5" fill="#f778ba"/>
-<text x="735" y="359" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">23.03%</text>
-<text x="918" y="359" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">4h 10m</text>
+<rect x="190" y="348" width="116.9" height="10" rx="5" fill="#f778ba"/>
+<text x="735" y="359" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">22.49%</text>
+<text x="918" y="359" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">4h 18m</text>
 <text x="62" y="386" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400">Markdown</text>
 <rect x="190" y="375" width="520" height="10" rx="5" fill="#21262d"/>
-<rect x="190" y="375" width="102.7" height="10" rx="5" fill="#a371f7"/>
-<text x="735" y="386" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">19.75%</text>
-<text x="918" y="386" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">3h 34m</text>
+<rect x="190" y="375" width="100.2" height="10" rx="5" fill="#a371f7"/>
+<text x="735" y="386" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">19.26%</text>
+<text x="918" y="386" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">3h 41m</text>
 <text x="62" y="413" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400">Lua</text>
 <rect x="190" y="402" width="520" height="10" rx="5" fill="#21262d"/>
-<rect x="190" y="402" width="28.3" height="10" rx="5" fill="#3fb950"/>
-<text x="735" y="413" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">5.45%</text>
+<rect x="190" y="402" width="26.8" height="10" rx="5" fill="#3fb950"/>
+<text x="735" y="413" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">5.16%</text>
 <text x="918" y="413" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">59m</text>
 <text x="62" y="440" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400">Text</text>
 <rect x="190" y="429" width="520" height="10" rx="5" fill="#21262d"/>
-<rect x="190" y="429" width="27.5" height="10" rx="5" fill="#d29922"/>
-<text x="735" y="440" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">5.29%</text>
+<rect x="190" y="429" width="26.1" height="10" rx="5" fill="#d29922"/>
+<text x="735" y="440" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">5.02%</text>
 <text x="918" y="440" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">57m</text>
 <text x="62" y="467" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400">YAML</text>
 <rect x="190" y="456" width="520" height="10" rx="5" fill="#21262d"/>
-<rect x="190" y="456" width="23.5" height="10" rx="5" fill="#79c0ff"/>
-<text x="735" y="467" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">4.52%</text>
+<rect x="190" y="456" width="22.3" height="10" rx="5" fill="#79c0ff"/>
+<text x="735" y="467" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">4.28%</text>
 <text x="918" y="467" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">49m</text>
 <text x="62" y="518" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700">Last 30 Days Activity</text>
 <text x="918" y="518" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="end">UPDATED DAILY</text>
-<path d="M 62.0 615 L 62.0 615.0 L 91.5 615.0 L 121.0 605.1 L 150.6 553.8 L 180.1 535.0 L 209.6 569.1 L 239.1 577.4 L 268.6 605.3 L 298.1 594.9 L 327.7 601.1 L 357.2 615.0 L 386.7 615.0 L 416.2 615.0 L 445.7 578.7 L 475.2 572.7 L 504.8 558.2 L 534.3 570.9 L 563.8 612.5 L 593.3 596.4 L 622.8 615.0 L 652.3 615.0 L 681.9 612.5 L 711.4 615.0 L 740.9 597.0 L 770.4 569.8 L 799.9 612.4 L 829.4 606.1 L 859.0 615.0 L 888.5 584.5 L 918.0 615.0 L 918.0 615 Z" fill="url(#line)" opacity="0.10"/>
-<path d="M 62.0 615.0 L 91.5 615.0 L 121.0 605.1 L 150.6 553.8 L 180.1 535.0 L 209.6 569.1 L 239.1 577.4 L 268.6 605.3 L 298.1 594.9 L 327.7 601.1 L 357.2 615.0 L 386.7 615.0 L 416.2 615.0 L 445.7 578.7 L 475.2 572.7 L 504.8 558.2 L 534.3 570.9 L 563.8 612.5 L 593.3 596.4 L 622.8 615.0 L 652.3 615.0 L 681.9 612.5 L 711.4 615.0 L 740.9 597.0 L 770.4 569.8 L 799.9 612.4 L 829.4 606.1 L 859.0 615.0 L 888.5 584.5 L 918.0 615.0" fill="none" stroke="url(#line)"
+<path d="M 62.0 615 L 62.0 615.0 L 91.5 605.1 L 121.0 553.8 L 150.6 535.0 L 180.1 569.1 L 209.6 577.4 L 239.1 605.3 L 268.6 594.9 L 298.1 601.1 L 327.7 615.0 L 357.2 615.0 L 386.7 615.0 L 416.2 578.7 L 445.7 572.7 L 475.2 558.2 L 504.8 570.9 L 534.3 612.5 L 563.8 596.4 L 593.3 615.0 L 622.8 615.0 L 652.3 612.5 L 681.9 615.0 L 711.4 597.0 L 740.9 569.8 L 770.4 612.4 L 799.9 606.1 L 829.4 615.0 L 859.0 584.5 L 888.5 615.0 L 918.0 582.9 L 918.0 615 Z" fill="url(#line)" opacity="0.10"/>
+<path d="M 62.0 615.0 L 91.5 605.1 L 121.0 553.8 L 150.6 535.0 L 180.1 569.1 L 209.6 577.4 L 239.1 605.3 L 268.6 594.9 L 298.1 601.1 L 327.7 615.0 L 357.2 615.0 L 386.7 615.0 L 416.2 578.7 L 445.7 572.7 L 475.2 558.2 L 504.8 570.9 L 534.3 612.5 L 563.8 596.4 L 593.3 615.0 L 622.8 615.0 L 652.3 612.5 L 681.9 615.0 L 711.4 597.0 L 740.9 569.8 L 770.4 612.4 L 799.9 606.1 L 829.4 615.0 L 859.0 584.5 L 888.5 615.0 L 918.0 582.9" fill="none" stroke="url(#line)"
       stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="62" y1="615" x2="918" y2="615" stroke="#30363d"/>
-<text x="62" y="640" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400">28 Sep</text>
-<text x="918" y="640" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400" text-anchor="end">27 Oct</text>
+<text x="62" y="640" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400">29 Sep</text>
+<text x="918" y="640" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400" text-anchor="end">28 Oct</text>
 
 </svg>
