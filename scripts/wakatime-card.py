@@ -83,10 +83,11 @@ def load_api_key():
 def fetch_json(path, api_key, retries=4):
     """GET a JSON response from the WakaTime API."""
 
+    credentials = base64.b64encode(f"{api_key}:".encode("utf-8")).decode("ascii")
     req = Request(
         API_BASE + path,
         headers={
-            "Authorization": f"Bearer {api_key}",
+            "Authorization": f"Basic {credentials}",
             "User-Agent": "github-profile-wakatime-card",
         },
     )
@@ -100,6 +101,11 @@ def fetch_json(path, api_key, retries=4):
             if exc.code == 202 and attempt < retries - 1:
                 time.sleep(8)
                 continue
+            if exc.code == 401:
+                raise RuntimeError(
+                    "WakaTime rejected WAKATIME_API_KEY. "
+                    "Check that the GitHub secret contains a current WakaTime API key."
+                ) from exc
             raise
 
         except URLError:
