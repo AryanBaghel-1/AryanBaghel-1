@@ -83,10 +83,12 @@ def load_api_key():
 def fetch_json(path, api_key, retries=4):
     """GET a JSON response from the WakaTime API."""
 
+    auth_token = base64.b64encode(f"{api_key}:".encode("utf-8")).decode("ascii")
+
     req = Request(
         API_BASE + path,
         headers={
-            "Authorization": f"Bearer {api_key}",
+            "Authorization": f"Basic {auth_token}",
             "User-Agent": "github-profile-wakatime-card",
         },
     )
