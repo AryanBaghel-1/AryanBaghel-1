@@ -42,9 +42,6 @@ FONT = "Arial,Helvetica,sans-serif"
 
 #  API Key 
 
-headers={
-    "Authorization": f"Bearer {api_key}",
-}
 
 def load_access_token():
     """
@@ -90,7 +87,8 @@ def fetch_json(path, access_token, retries=4):
     req = Request(
         API_BASE + path,
         headers={
-            "Authorization": f"Bearer {access_token}",
+             "Authorization": f"Bearer {api_key}",
+            # "Authorization": f"Bearer {access_token}",
             "User-Agent": "github-profile-wakatime-card",
         },
     )
