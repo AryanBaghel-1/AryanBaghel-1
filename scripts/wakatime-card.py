@@ -19,9 +19,9 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-# ── Configuration ────────────────────────────────────────────
+# Configuration
 
-API_BASE = "https://wakatime.com/api/v1/users/current"
+API_BASE = "https://api.wakatime.com/api/v1/users/current"
 
 # SVG dimensions and palette
 WIDTH, HEIGHT = 980, 650
@@ -41,7 +41,7 @@ ACTIVITY_DAYS = 30
 FONT = "Arial,Helvetica,sans-serif"
 
 
-# ── API Key ──────────────────────────────────────────────────
+#  API Key 
 
 def load_api_key():
     """
@@ -78,15 +78,15 @@ def load_api_key():
     sys.exit(1)
 
 
-# ── WakaTime API ─────────────────────────────────────────────
+# WakaTime API
 
 def fetch_json(path, api_key, retries=4):
-    """GET a JSON response from the WakaTime API with retry logic."""
-    token = base64.b64encode(f"{api_key}:".encode()).decode()
+    """GET a JSON response from the WakaTime API."""
+
     req = Request(
         API_BASE + path,
         headers={
-            "Authorization": f"Basic {token}",
+            "Authorization": f"Bearer {api_key}",
             "User-Agent": "github-profile-wakatime-card",
         },
     )
@@ -98,7 +98,7 @@ def fetch_json(path, api_key, retries=4):
 
         except HTTPError as exc:
             if exc.code == 202 and attempt < retries - 1:
-                time.sleep(8)       # WakaTime returns 202 while stats are processing
+                time.sleep(8)
                 continue
             raise
 
@@ -107,10 +107,12 @@ def fetch_json(path, api_key, retries=4):
                 raise
             time.sleep(5)
 
-    raise RuntimeError("WakaTime API request failed after all retries")
+    raise RuntimeError(
+        "WakaTime API request failed after all retries"
+    )
 
 
-# ── Helpers ──────────────────────────────────────────────────
+#  Helpers 
 
 def esc(value):
     """HTML-escape a value for safe SVG embedding."""
@@ -144,7 +146,7 @@ def svg_rect(x, y, w, h, *, rx=16, fill=COLOR_PANEL, stroke=COLOR_BORDER):
     )
 
 
-# ── Data Fetching ────────────────────────────────────────────
+#  Data Fetching 
 
 def fetch_all_data(api_key):
     """Fetch all-time stats and last-30-day summaries. Returns (stats, summaries)."""
@@ -159,7 +161,7 @@ def fetch_all_data(api_key):
     return stats, summaries, today, start
 
 
-# ── Language Aggregation ─────────────────────────────────────
+#  Language Aggregation 
 
 def aggregate_languages(summaries):
     """Aggregate language seconds across all summary days, return sorted list."""
@@ -182,7 +184,7 @@ def aggregate_languages(summaries):
     return languages[:MAX_LANGUAGES]
 
 
-# ── Daily Activity ───────────────────────────────────────────
+#  Daily Activity 
 
 def build_daily_activity(summaries, start):
     """Return a list of total-seconds per day for the last 30 days."""
@@ -193,7 +195,7 @@ def build_daily_activity(summaries, start):
     return [by_date.get((start + timedelta(days=i)).isoformat(), 0) for i in range(ACTIVITY_DAYS)]
 
 
-# ── SVG Builder ──────────────────────────────────────────────
+#  SVG Builder 
 
 def build_svg(stats, languages, activity, today, start):
     """Assemble and return the complete SVG string."""
@@ -205,7 +207,7 @@ def build_svg(stats, languages, activity, today, start):
 
     parts = []
 
-    # ── Header & Background ──────────────────────────────────
+    #  Header & Background 
     parts.append(f"""\
 <svg xmlns="http://www.w3.org/2000/svg"
      width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">
@@ -235,7 +237,7 @@ def build_svg(stats, languages, activity, today, start):
 {svg_text(942, 76, "ALL TIME", fill=COLOR_MUTED, size=13, weight="700", anchor="end")}
 <line x1="38" y1="94" x2="942" y2="94" stroke="{COLOR_BORDER}"/>""")
 
-    # ── Stat Cards ───────────────────────────────────────────
+    #  Stat Cards 
     # Total coding time
     parts.append(f"""\
 {svg_rect(38, 116, 430, 126)}
@@ -260,7 +262,7 @@ def build_svg(stats, languages, activity, today, start):
     else:
         parts.append(svg_text(742, 190, "—", fill=COLOR_MUTED, size=25, weight="700"))
 
-    # ── Language Bars ────────────────────────────────────────
+    #  Language Bars 
     parts.append(f"""\
 {svg_rect(38, 264, 904, 238)}
 {svg_text(62, 298, "Most Used Languages", fill=COLOR_TEXT, size=17, weight="700")}
@@ -279,7 +281,7 @@ def build_svg(stats, languages, activity, today, start):
 {svg_text(735, y, f"{pct:.2f}%", anchor="end")}
 {svg_text(918, y, esc(fmt_time(lang["total_seconds"])), fill=COLOR_MUTED, size=11, anchor="end")}""")
 
-    # ── Activity Graph ───────────────────────────────────────
+    #  Activity Graph 
     graph_y, graph_h = 535, 80
     graph_x, graph_w = 62, 856
     peak = max(activity) if activity else 1
@@ -312,7 +314,7 @@ def build_svg(stats, languages, activity, today, start):
     return "\n".join(parts)
 
 
-# ── Main ─────────────────────────────────────────────────────
+#  Main 
 
 def main():
     api_key = load_api_key()
