@@ -2,13 +2,12 @@
 """
 Generate a WakaTime coding-activity SVG card.
 
-Expects the WAKATIME_API_KEY environment variable.
+Expects the WAKATIME_ACCESS_TOKEN environment variable.
 In GitHub Actions this comes from repository secrets.
 For local runs, either export the variable or create a .env file
-in the project root with:  WAKATIME_API_KEY=your_key_here
+in the project root with: WAKATIME_ACCESS_TOKEN=your_token_here
 """
 
-import base64
 import html
 import json
 import os
@@ -43,14 +42,18 @@ FONT = "Arial,Helvetica,sans-serif"
 
 #  API Key 
 
-def load_api_key():
+headers={
+    "Authorization": f"Bearer {api_key}",
+}
+
+def load_access_token():
     """
-    Load the WakaTime API key from environment or .env file.
-    Returns the key string or exits with a clear error.
+    Load the WakaTime OAuth access token from environment or .env file.
+    Returns the token string or exits with a clear error.
     """
-    key = os.environ.get("WAKATIME_API_KEY")
-    if key:
-        return key
+    token = os.environ.get("WAKATIME_ACCESS_TOKEN")
+    if token:
+        return token
 
     # Try loading from .env in the project root
     env_path = Path(__file__).resolve().parent.parent / ".env"
@@ -60,19 +63,20 @@ def load_api_key():
             if line.startswith("#") or "=" not in line:
                 continue
             name, _, value = line.partition("=")
-            if name.strip() == "WAKATIME_API_KEY":
+            if name.strip() == "WAKATIME_ACCESS_TOKEN":
                 value = value.strip().strip("\"'")
                 if value:
                     return value
 
     print(
-        "ERROR: WAKATIME_API_KEY is not set.\n"
+        "ERROR: WAKATIME_ACCESS_TOKEN is not set.\n"
         "\n"
-        "  Option 1 — export it:   export WAKATIME_API_KEY=your_key\n"
+        "  Option 1 — export it:   export WAKATIME_ACCESS_TOKEN=your_token\n"
         "  Option 2 — .env file:   create .env in project root with:\n"
-        "                          WAKATIME_API_KEY=your_key\n"
+        "                          WAKATIME_ACCESS_TOKEN=your_token\n"
         "\n"
-        "  In GitHub Actions this is injected automatically from secrets.",
+        "  Create a token at https://wakatime.com/oauth with read_stats and "
+        "read_summaries access.",
         file=sys.stderr,
     )
     sys.exit(1)
@@ -80,14 +84,13 @@ def load_api_key():
 
 # WakaTime API
 
-def fetch_json(path, api_key, retries=4):
+def fetch_json(path, access_token, retries=4):
     """GET a JSON response from the WakaTime API."""
 
-    credentials = base64.b64encode(f"{api_key}:".encode("utf-8")).decode("ascii")
     req = Request(
         API_BASE + path,
         headers={
-            "Authorization": f"Basic {credentials}",
+            "Authorization": f"Bearer {access_token}",
             "User-Agent": "github-profile-wakatime-card",
         },
     )
@@ -103,8 +106,13 @@ def fetch_json(path, api_key, retries=4):
                 continue
             if exc.code == 401:
                 raise RuntimeError(
-                    "WakaTime rejected WAKATIME_API_KEY. "
-                    "Check that the GitHub secret contains a current WakaTime API key."
+                    "WakaTime rejected WAKATIME_ACCESS_TOKEN. "
+                    "Check that the GitHub secret contains a current OAuth access token."
+                ) from exc
+            if exc.code == 403:
+                raise RuntimeError(
+                    "WakaTime denied this request. Use an OAuth access token with "
+                    "read_stats and read_summaries scopes, not a WakaTime API key."
                 ) from exc
             raise
 
@@ -154,14 +162,14 @@ def svg_rect(x, y, w, h, *, rx=16, fill=COLOR_PANEL, stroke=COLOR_BORDER):
 
 #  Data Fetching 
 
-def fetch_all_data(api_key):
+def fetch_all_data(access_token):
     """Fetch all-time stats and last-30-day summaries. Returns (stats, summaries)."""
     today = datetime.now(timezone.utc).date()
     start = today - timedelta(days=ACTIVITY_DAYS - 1)
 
-    stats = fetch_json("/stats/all_time", api_key)["data"]
+    stats = fetch_json("/stats/all_time", access_token)["data"]
     summaries = fetch_json(
-        f"/summaries?start={start.isoformat()}&end={today.isoformat()}", api_key
+        f"/summaries?start={start.isoformat()}&end={today.isoformat()}", access_token
     ).get("data", [])
 
     return stats, summaries, today, start
@@ -323,9 +331,9 @@ def build_svg(stats, languages, activity, today, start):
 #  Main 
 
 def main():
-    api_key = load_api_key()
+    access_token = load_access_token()
 
-    stats, summaries, today, start = fetch_all_data(api_key)
+    stats, summaries, today, start = fetch_all_data(access_token)
     languages = aggregate_languages(summaries)
     activity = build_daily_activity(summaries, start)
 
